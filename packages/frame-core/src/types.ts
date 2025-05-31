@@ -28,7 +28,7 @@ export type SetPrimaryButtonOptions = {
 
 // start backwards compat, remove in 1.0
 export * from './wallet/ethereum.ts'
-export { DEFAULT_READY_OPTIONS, ReadyOptions } from './actions/Ready.ts'
+export type { DEFAULT_READY_OPTIONS, ReadyOptions } from './actions/Ready.ts'
 export type SignInOptions = SignIn.SignInOptions
 // end backwards compat
 
